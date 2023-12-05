@@ -9,8 +9,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        showToast1("Hello...!!")
-        showToast2("Hiee")
+
 
     }
 
