@@ -9,13 +9,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        showToast("Hello...!!")
+        showToast1("Hello...!!")
+        showToast2("Hiee")
 
     }
 
+    fun showToast1(msg : String){
+        Toast.makeText(applicationContext,msg,Toast.LENGTH_SHORT).show()
+    }
 
-
-    fun showToast(msg : String){
+    fun showToast2(msg : String){
         Toast.makeText(applicationContext,msg,Toast.LENGTH_SHORT).show()
     }
 }
